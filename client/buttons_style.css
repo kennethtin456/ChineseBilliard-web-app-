@@ -1,0 +1,328 @@
+/****************************************************
+
+ * 	Buttons
+ 
+*****************************************************/
+
+
+/****************************************************
+
+ * 	Login Button
+ 
+*****************************************************/
+
+.login_button{
+	
+	position:relative;
+	
+	width:200px;
+	
+	color:#FFF;
+	
+	display:block;
+	
+	text-decoration:none;
+	
+	margin:0 auto;
+	
+	border-radius:200px;
+	
+	border:solid 1px #252500;
+
+	
+	background:linear-gradient(left top,#003300,#66FF66);
+	
+	background:-webkit-linear-gradient(left top,#003300,#66FF66);
+	
+	background:-moz-linear-gradient(left top,#003300,#66FF66);
+	
+	background:-ms-linear-gradient(left top,#003300,#66FF66);
+	
+	background:-o-linear-gradient(left top,#003300,#66FF66);
+
+	
+	text-align:center;
+	
+	font: normal normal bold 29px Comic Sans MS;
+	
+	font-style: oblique;
+	padding:10px 5px;
+	
+	
+	-webkit-transition: all 0.1s;
+	
+	-moz-transition: all 0.1s;
+	
+	transition: all 0.1s;
+	
+	
+	-webkit-box-shadow: 0px 9px 0px #252500;
+        
+	-moz-box-shadow: 0px 9px 0px #252500;
+        
+	box-shadow: 0px 9px 0px #252500;
+
+}
+
+
+
+.login_button:hover {
+	
+	background:linear-gradient(left top,#00C600,#68FDC9);
+	
+	background:-webkit-linear-gradient(left top,#00C600,#68FDC9);
+	
+	background:-moz-linear-gradient(left top,#00C600,#68FDC9);
+	
+	background:-ms-linear-gradient(left top,#00C600,#68FDC9);
+	
+	background:-o-linear-gradient(left top,#00C600,#68FDC9);
+
+}
+
+
+
+
+.login_button:active{
+    	
+	-webkit-box-shadow: 0px 2px 0px #252500;
+   	
+	-moz-box-shadow: 0px 2px 0px #252500;
+    	
+	box-shadow: 0px 2px 0px #252500;
+    	
+	position:relative;
+    	
+	top:7px;
+
+}
+	
+
+
+
+
+/****************************************************
+
+ * 	Register Button
+ 
+*****************************************************/
+
+
+.register_button{
+	
+	position:relative;
+	
+	width:200px;
+	
+	color:#FFF;
+	
+	display:block;
+
+	text-decoration:none;
+	
+	margin:0 auto;
+
+	border-radius:200px;
+
+	border:solid 1px #84261a;
+
+
+	background:linear-gradient(left top,#330000,#CC3366);
+
+	background:-webkit-linear-gradient(left top,#330000,#CC3366);
+
+	background:-moz-linear-gradient(left top,#330000,#CC3366);
+
+	background:-ms-linear-gradient(left top,#330000,#CC3366);
+
+	background:-o-linear-gradient(left top,#330000,#CC3366);
+
+
+	text-align:center;
+
+	font: normal normal bold 29px Comic Sans MS;
+
+	font-style: oblique;
+
+	padding:10px 5px;
+
+	-webkit-transition: all 0.1s;
+
+	-moz-transition: all 0.1s;
+
+	transition: all 0.1s;
+
+	-webkit-box-shadow: 0px 9px 0px #84261a;
+
+        -moz-box-shadow: 0px 9px 0px #84261a;
+
+        box-shadow: 0px 9px 0px #84261a;
+
+
+}
+
+
+
+.register_button:hover {
+
+	background:linear-gradient(left top,#B70000,#E699B1);
+
+	background:-webkit-linear-gradient(left top,#B70000,#E699B1);
+
+	background:-moz-linear-gradient(left top,#B70000,#E699B1);
+
+	background:-ms-linear-gradient(left top,#B70000,#E699B1);
+
+	background:-o-linear-gradient(left top,#B70000,#E699B1);
+
+}
+
+
+
+
+.register_button:active{
+
+    -webkit-box-shadow: 0px 2px 0px #84261a;
+
+    -moz-box-shadow: 0px 2px 0px #84261a;
+
+    box-shadow: 0px 2px 0px #84261a;
+
+    position:relative;
+
+    top:7px;
+}
+
+
+
+
+
+/****************************************************
+
+ * 	Facebook Button
+ 
+*****************************************************/
+
+
+.fb_button{
+
+	position:relative;
+
+	width:220px;
+
+	color:#FFF;
+
+	display:block;
+
+	text-decoration:none;
+
+	margin:0 auto;
+
+	border-radius:220px;
+
+	border:solid 1px #001E75;
+
+
+	background:linear-gradient(left top,#0033CC,#666699);
+
+	background:-webkit-linear-gradient(left top,#0033CC,#666699);
+
+	background:-moz-linear-gradient(left top,#0033CC,#666699);
+
+	background:-ms-linear-gradient(left top,#0033CC,#666699);
+
+	background:-o-linear-gradient(left top,#0033CC,#666699);
+
+
+	text-align:center;
+
+	font: normal normal bold 29px Comic Sans MS;
+
+	font-style: oblique;
+
+	padding:10px 5px;
+
+
+	-webkit-transition: all 0.1s;
+
+	-moz-transition: all 0.1s;
+
+	transition: all 0.1s;
+	
+
+	-webkit-box-shadow: 0px 9px 0px #001E75;
+
+        -moz-box-shadow: 0px 9px 0px #001E75;
+
+        box-shadow: 0px 9px 0px #001E75;
+
+
+}
+
+
+
+.fb_button:hover {
+
+	background:linear-gradient(left top,#134FFF,#A8A8C6);
+
+	background:-webkit-linear-gradient(left top,#134FFF,#A8A8C6);
+
+	background:-moz-linear-gradient(left top,#134FFF,#A8A8C6);
+
+	background:-ms-linear-gradient(left top,#134FFF,#A8A8C6);
+
+	background:-o-linear-gradient(left top,#134FFF,#A8A8C6);
+
+}
+
+
+
+
+.fb_button:active{
+
+    -webkit-box-shadow: 0px 2px 0px #001E75;
+
+    -moz-box-shadow: 0px 2px 0px #001E75;
+
+    box-shadow: 0px 2px 0px #001E75;
+
+    position:relative;
+    top:7px;
+
+}
+
+
+
+
+
+.fb_button:after{
+
+	content:  "\0000a0";
+
+   	display: inline-block;
+
+    	height: 24px;
+
+    	width: 24px;
+  
+  	line-height: 24px;
+   
+ 	margin: 0 -4px -6px 4px;
+  
+  	position: relative;
+   
+ 	top: 0px;
+   
+ 	left: 0px;
+   
+ 	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAACRklEQVRIie2VvWoUURTHf2fmzu5CSBaEBVdMEQtB1E4UW3EtLawULGKnYOEDWFr4AmIhq0LQSrALkib4Aha+wDZCQkI0rO7E/ZpjcT/m7ibZLLZ6l+H+59zz+T/n7sjN1bYKoIDfibC497/FRsRCf+B30Ega41jnZGwmxaDBmaAKIkxgkybUF2ukqbXLD4b8ygfWVhWxBgGbkpQ4spVZZYubjSUe3bvKlctnyUwa9Nc+fOb1x69k1QWXjGPEYaPq3AZfPm0XWIVKlvDsSYvlZj1kFyrWMd3dDkuNFUx1IWqigEIiLprg6XAYAVVE4NL50yw364hIoKCX99n78ZNe3ke1oLvbYdTvWV8uexEwUy0IQUqK4ExjMWCAT5tfePp8jaiQEGSpsWLpco4TVQW1Zasqise4R0nTpDxX5dvWHkVhFbwMVYrC0jXs94KPxKaqZfmKw5CZhFo1IzNJqEhEMGlCtVqhUq1gTGrtwvQ4uga5pav1oD05RtF1eXj3GnduXWTWevFmnfb7jUNykcQ2XtXOvfr2C5YbynmetbZ3vtuZZ/JfoHDTZQJFkcOyoYcvzjTe3tkv9WNbVVQLpLXangwfaiSwdfvGBR7fvx6OXr3b4OXb9ZmV+WVUImqmVySbpuok6kIA8Z7UbzFdR9+LGB9HnccJGqcJogJHFBU75xj5Ufg/Rf8ARXNdtIpRinyL8WgIQH7Qp5f/nq+CeSjqj2Asp+judxiPBnM59ivxXy9RCdSI+6EScGpq1BvnSE1mdaKv2yz8B4t6S1SEUMOzAAAAAElFTkSuQmCC") no-repeat left center transparent;
+    	background-size: 100% 100%;
+
+}
+
+
+
+
+
+
+

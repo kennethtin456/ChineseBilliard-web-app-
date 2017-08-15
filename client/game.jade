@@ -1,0 +1,66 @@
+doctype html
+html
+  head
+    meta(charset='UTF-8')
+    | &#x9;
+    title Lobby
+    | &#x9;
+    script(src='../js/phaser.js')
+    | &#x9;
+    script(src='../js/phaser-arcade-physics.js')
+    | &#x9;
+    script(src='../js/phaser-ninja-physics.js')
+    | &#x9;
+    script(src='../js/p2.js')
+    |   
+    link(rel='stylesheet', type='text/css', href='style.css')
+  body
+    #gamediv
+    | &#x9;
+    #chat
+    | &#x9;
+    |   
+    fb:login-button(scope='public_profile,email', onlogin='checkLoginState();')
+    #status
+    | &#x9;
+    |   &#x9;
+    script(src='../js/socket.io.js')
+    |   &#x9;
+    script(src='room.js')
+    |   &#x9;
+    script(src='Lobby.js')
+    |   &#x9;
+    script(src='WaitingRoom.js')
+    |   &#x9;
+    script(src='Player.js')
+    |   &#x9;
+    script(src='Game.js')
+    |   &#x9;
+    script(src='https://cdn.socket.io/socket.io-1.2.0.js')
+    | &#x9;
+    script(src='http://code.jquery.com/jquery-1.11.1.js')
+    |     
+    script.
+      var username = !{JSON.stringify(user.username)};
+      //if(getCookie("username") != null){
+      //username = getCookie("username");
+      //document.cookie = "username=";
+      //}
+      function getCookie(cname) {
+      var name = cname + "=";
+      var ca = document.cookie.split(';');
+      for(var i=0; i<ca.length; i++) {
+      var c = ca[i];
+      while (c.charAt(0)==' ') c = c.substring(1);
+      if (c.indexOf(name) == 0) return c.substring(name.length,c.length);
+      }
+      return "";
+      }
+      
+      window.onload = function () {
+      var game = new Phaser.Game(900, 500, Phaser.CANVAS, 'gamediv');
+      game.state.add('Lobby', Lobby);
+      game.state.add('WaitingRoom', WaitingRoom);
+      game.state.add('Game', Game);
+      game.state.start('Lobby', true, false, {username: username});
+      }
